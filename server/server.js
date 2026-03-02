@@ -35,8 +35,7 @@ app.use('*', (req, res) => {
 });
 
 // Database connection
-mongoose
-git   .connect("mongodb+srv://sangammukherjee1996:sangammukherjee1996@cluster0.hajgu3b.mongodb.net/", {
+mongoose.connect("mongodb+srv://sangammukherjee1996:sangammukherjee1996@cluster0.hajgu3b.mongodb.net/", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
